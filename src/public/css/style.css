@@ -2,7 +2,7 @@
 .header {
 background-color: #c9ddf2;
 text-align: center;
-padding: 10px;
+padding: 6px;
 font-family: 'League Spartan';
 }
 .header h1 {
@@ -14,17 +14,45 @@ color: #525252;
 .topnav{
 overflow: hidden;
 background-color: #525252;
+display: flex;
+justify-content: center;
 }
-.topnav a {
+.topnav a{
 float: left;
 display: block;
 color: #f2f2f2;
 text-align: center;
+font-family: 'League Spartan';
 padding: 14px 16px;
 text-decoration: none;
 }
+
 /* Añade efecto al pasar por encima en el menú*/
 .topnav a:hover {
-background-color: #ffd7d9;
+background-color: #c9ddf2;
 color: black;
+}
+
+/*CARRUSEL*/
+
+.titulo {
+    font-size: 70px;
+    text-align: center;
+    font-family: 'League Spartan';
+    color: #525252;
+}
+
+.carousel .carousel-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    width: 500px;
+    height: 500px;
+}
+
+.carousel-item img{
+    max-width: 100%;
+    height: auto;
 }
