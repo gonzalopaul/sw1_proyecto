@@ -57,9 +57,38 @@ color: black;
     max-width: 100%;
     height: auto;
 }
+
+/*FOOTER*/
+.footer {
+    background-color: #878787; 
+    color: #fff; 
+    padding: 20px 0;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.footerLogo img {
+    width: 100px;
+    height: auto; 
+}
+
+.footerRedes{
+    text-align: center;
+}
+
+.footerInfo {
+    text-align: right;
+}
+
+
 /*-------------------------------------------*/
 /*Servicios*/
-
 
 /*-------------------------------------------*/
 /*Colaboraciones Slide*/
