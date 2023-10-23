@@ -57,3 +57,42 @@ color: black;
     max-width: 100%;
     height: auto;
 }
+
+/*-------------------------------------------*/
+/*FORMULARIO PÁGINA DE CONTACTO*/
+.contacto {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contacto  form {
+    margin-top: 20px;
+}
+
+.contacto label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contacto input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+.contacto label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contacto input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
