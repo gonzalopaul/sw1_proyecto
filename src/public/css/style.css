@@ -45,11 +45,12 @@ color: black;
 .carousel .carousel-item{
     display: flex;
     flex-direction: column;
+    text-align: center;
     justify-content: center;
     align-items: center;
     user-select: none;
-    width: 500px;
-    height: 500px;
+    width: 800px;
+    height: 800px;
 }
 
 .carousel-item img{
