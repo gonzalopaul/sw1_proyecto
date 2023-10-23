@@ -37,24 +37,34 @@
 	</header>
 
     <div class="contacto">
-        <h2>Completa el siguiente formulario dejarnos un mensaje</h2>
+        <h5 style="text-align: center; font-family: League Spartan;">Dejanos un mensaje con tu consulta. Nos pondremos en contacto contigo a través del correo solopods@noreply.es. ¡Esperamos colaborar pronto!</h5>
         <form action="#" method="post">
-            <label for="desplegable">Particular o Empresa:</label>
-            <select id="desplegable" name="desblegable">
-                <option value="particular">Particular</option>
-                <option value="empresa">Empresa</option>
-            </select>
+            <div class="contactForm">
+                <label for="tipo">Particular o empresa:</label>
+                <select name="tipo" id="tipo">
+                   <option value="particular">Particular</option>
+                   <option value="empresa">Empresa</option>
+                </select>
+            </div>
 
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" required>
-    
-            <label for="email">Email:</label>
-            <input type="text" id="email" name="email" required>
-    
-            <label for="mensaje">Mensaje:</label>
-            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
-    
-            <input type="submit" value="Enviar">
+            <div class="contactForm">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+
+            <div class="contactForm">
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email" required>
+            </div> 
+
+            <div class="contactForm">
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+            </div>
+            <div class="contactForm">
+                <input type="submit" value="Enviar">
+            </div>
+
         </form>
       </div>
     
