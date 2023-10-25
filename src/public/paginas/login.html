@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Caompatible" content="ie=edge">
-    <title>Pedidos</title>
+    <title>Contacto</title>
     <!--css-->
 	<link rel="stylesheet" href="../css/style.css">
 	<!--css para carousel-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!--css para login y registrar-->
+    <link rel="stylesheet" href="../css/style_login.css">
 
     <!--Favicon-->
     <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
@@ -28,14 +30,45 @@
 			<a href="../index.html"><h1>Solopods</h1></a>
 		</div>
 		<div class = "topnav">
-            <a href="../paginas/productos.html">Productos</a>
-            <a href="../paginas/servicios.html">Servicios</a>
-            <a href="../paginas/colaboraciones.html">Colaboraciones</a>
-            <a href="../paginas/contacto.html">Contacto</a>
-            <a href="../paginas/login.html">Login</a>
+				<a href="../paginas/productos.html">Productos</a>
+				<a href="../paginas/servicios.html">Servicios</a>
+				<a href="../paginas/colaboraciones.html">Colaboraciones</a>
+                <a href="../paginas/contacto.html">Contacto</a>
+                <a href="../paginas/login.html">Login</a>
 		</div>
 	</header>
+    <div id="loginContainer" name="loginContainer">
+        <div id="leftContainer" name="leftContainer">
+            <div name="loginForm" id="loginForm">
+                <div name="loginHeader">
+                    <h2>Bienvenido</h2>
+                </div>
+                <div id="loginEmail" name="loginEmail">
+                    <label for="LoginEmailInput">Email</label>
+                    <input type="email" id="LoginEmailInput"/>
+                </div>
 
+                <div id="loginPassword" name="loginPassword">
+                    <label for="loginPasswordInput">Contraseña</label>
+                    <input type="password" id="LoginPasswordInput"/>
+                </div>
+                <a href="olvidadoContraseña.html">¿Olvidaste tu contraseña?</a>
+                <br>
+                <button id="loginButton" type="button" class="submit">Entrar</button>
+            </div>
+        </div>
+        <div id="rightContainer" name="rightContainer">
+            <div name="loginregistrationContainer" id="loginregistrationContainer">
+                <div name="registrationContent" id="registrationContent">
+                    <h3>¿No tienes cuenta?</h3>
+                    <br><br><br><br><br><br>
+                    <a href="registrar.html">
+                    <button id="registrationButton" type="button" class="submit">Regístrate</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
     <!--FOOTER-->
     <div class="footer">
         <div class="footerLogo">
