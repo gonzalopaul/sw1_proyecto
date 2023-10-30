@@ -25,7 +25,6 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-color: lightgray;
         color: black;  /* text color for the black box */
         height: 420px;
     }
