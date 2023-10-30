@@ -1,4 +1,8 @@
     /*css for login.html*/
+
+    main {
+        padding: 0px;
+    }
     #loginContainer {
         display: flex;
         justify-content: center;
