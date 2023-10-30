@@ -1,6 +1,14 @@
 /*contenido de pagina*/
 main {
     padding: 40px;
+    flex: 1;
+}
+
+/*permite que el footer esté siempre al final de la página*/
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 /* CABECERA */
