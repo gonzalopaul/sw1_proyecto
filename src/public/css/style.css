@@ -1,3 +1,8 @@
+/*contenido de pagina*/
+div[id$='Content'] {
+    padding: 40px;
+}
+
 /* CABECERA */
 .header {
 background-color: #c9ddf2;
