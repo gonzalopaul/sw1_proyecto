@@ -37,35 +37,38 @@
                 <a href="../paginas/login.html">Login</a>
 		</div>
 	</header>
-    <div id="registrarContainer">
-        <div name="registrarForm" id="registrarForm">
-            <h3>Crea tu cuenta</h3>
-            <div id="registrarNombreYApellido">
-                <div id="nombre">
-                    <label for="registrarNombre">Nombre</label>
-                    <input type="text" id="registrarNombre"/>
+    <!--contenido de la página-->
+    <main>
+        <div id="registrarContainer">
+            <div name="registrarForm" id="registrarForm">
+                <h3>Crea tu cuenta</h3>
+                <div id="registrarNombreYApellido">
+                    <div id="nombre">
+                        <label for="registrarNombre">Nombre</label>
+                        <input type="text" id="registrarNombre"/>
+                    </div>
+                    <div id="apellido">
+                        <label for="registrarApellido">Apellido</label>
+                        <input type="text" id="registrarApellido"/>
+                    </div>
                 </div>
-                <div id="apellido">
-                    <label for="registrarApellido">Apellido</label>
-                    <input type="text" id="registrarApellido"/>
+                <div id="registrarEmail" name="registrarEmail">
+                    <label for="registrarEmailInput">Email</label>
+                    <input type="email" id="registrarEmailInput"/>
                 </div>
-            </div>
-            <div id="registrarEmail" name="registrarEmail">
-                <label for="registrarEmailInput">Email</label>
-                <input type="email" id="registrarEmailInput"/>
-            </div>
 
-            <div id="registrarPassword" name="registrarPassword">
-                <label for="registrarPasswordInput">Contraseña</label>
-                <input type="password" id="registrarPasswordInput"/>
+                <div id="registrarPassword" name="registrarPassword">
+                    <label for="registrarPasswordInput">Contraseña</label>
+                    <input type="password" id="registrarPasswordInput"/>
+                </div>
+                <div id="registrarRepitirPassword" name="registrarRepitirPassword">
+                    <label for="registrarRepidirPasswordInput">Repetir Contraseña</label>
+                    <input type="password" id="registrarRepitirPasswordInput"/>
+                </div>
+                <button id="registrarButton" type="button" class="submit">Enviar</button>
             </div>
-            <div id="registrarRepitirPassword" name="registrarRepitirPassword">
-                <label for="registrarRepidirPasswordInput">Repetir Contraseña</label>
-                <input type="password" id="registrarRepitirPasswordInput"/>
-            </div>
-            <button id="registrarButton" type="button" class="submit">Enviar</button>
         </div>
-    </div>
+    </main>
     <!--FOOTER-->
     <div class="footer">
         <div class="footerLogo">

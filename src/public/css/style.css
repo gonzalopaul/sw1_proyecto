@@ -1,5 +1,5 @@
 /*contenido de pagina*/
-div[id$='Content'] {
+main {
     padding: 40px;
 }
 
