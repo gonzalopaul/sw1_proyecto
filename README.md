@@ -19,7 +19,7 @@ cd src
 ````
 Si tienes instalado docker ejecuta:
 ````
-cd src
+sudo docker run -p 3000:3000 -d solopods
 ````
 En otro caso, ejecuta la instalación de paquetes:
 ````
@@ -32,6 +32,13 @@ npm start
 Dirígete a tu navegador y accede a la siguiente url:
 ````
 localhost:3000
+````
+Para parar el proceso de docker:
+````
+Primero hay que ver el id del Docker
+sudo docker ps
+Lo copiamos y paramos con el siguiente comando:
+sudo docker stop <id>
 ````
 
 ## Información de utilización
