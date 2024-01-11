@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <link rel='stylesheet' href='/stylesheets/form.css' />
+        <link rel='stylesheet' href='/stylesheets/footer.css' />
+    </head>
+    <body>
+        <%- include("header", {}) %>
+        <h1 style="text-align: center;">Gestión de roles de usuario</h1>
+        <form action="/roles/update" method="POST">
+            <label for="userId">User ID:</label>
+            <input type="number" name="userId" id="userId" required>
+            <br>
+            <label for="newRole">Nuevo rol:</label>
+            <select name="newRole" id="newRole" required>
+                <option value="admin">Admin</option>
+                <option value="user">User</option>
+                <option value="vipuser">VIP User</option>
+                <option value="supplier">Supplier</option>
+            </select>
+            <br>
+            <button type="submit">Change role</button>
+        </form>
+        <br>
+        <table style="text-align: center;">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Username</th>
+                    <th>Current Role</th>
+                </tr>
+            </thead>
+            <tbody>
+                <% users.forEach(user => { %>
+                    <tr>
+                        <td><%= user.id %></td>
+                        <td><%= user.username %></td>
+                        <td><%= user.rol %></td>
+                    </tr>
+                <% }); %>
+            </tbody>
+        </table>
+        <%- include("footer", {}) %>
+    </body>
+</html> 

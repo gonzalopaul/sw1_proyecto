@@ -1,0 +1,36 @@
+
+/*FOOTER*/
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.footer {
+    /*position: fixed;*/
+    background-color: #878787; 
+    color: #fff; 
+    padding: 20px 0;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: auto;
+  }
+  
+  .footerLogo img {
+    width: 100px;
+    height: auto; 
+  }
+  
+  .footerRedes{
+    text-align: center;
+  }
+  
+  .footerInfo {
+    text-align: right;
+  }
+  

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <link rel='stylesheet' href='/stylesheets/form.css' />
+        <link rel='stylesheet' href='/stylesheets/footer.css' />
+    </head>
+    <body>
+        <%- include("header", {}) %>
+        <h1 style="text-align: center;">Realizar pedido</h1>
+        <form action="/order" method="POST">
+            <label for="productName">Producto:</label>
+            <select name="productName" id="productName">
+                <% availableProducts.forEach(product => { %>
+                    <option value="<%= product.name %>"><%= product.name %></option>
+                <% }); %>
+            </select>
+            <br>
+            <label for="quantity">Cantidad:</label>
+            <input type="number" name="quantity" id="quantity" required>
+            <br>
+            <button type="submit">Realizar Pedido</button>
+        </form>
+        <br>
+        <h2>Mis Pedidos</h2>
+        <ol>
+            <% orders.forEach(order => { %>
+                <li><%= order.stock.name %> - <%= order.user.username %> - <%= order.quantity %> unidades - <%= order.fecha %></li>
+            <% }); %>      
+        </ol>
+
+        <%- include("footer", {}) %>
+    </body>
+</html>

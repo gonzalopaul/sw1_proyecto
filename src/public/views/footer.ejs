@@ -1,0 +1,38 @@
+<% if (message) { %>
+    <div class="alert alert-primary alert-dismissible" role="alert">
+    <%- message %>
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+<% } if (error) { %>
+    <div class="alert alert-danger alert-dismissible" role="alert">
+    <%- error %>
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+<% } %>
+</body>
+</html>
+<html>
+    <head>
+        <link rel='stylesheet' href='/stylesheets/footer.css' />
+    </head>
+    <body>
+        <!--FOOTER-->
+        <div class="footer">
+        <div class="footerLogo">
+            <img src="/images/logosolopds.png" alt="Logo de la empresa">
+            <p>&copy; 2023 <%= title %></p>
+        </div>
+        <div class="footerRedes">
+            <p>Síguenos en redes sociales:</p>
+            <a href="https://www.instagram.com/solopods_/" target="_blank">Instagram</a>
+            <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+        <div class="footerInfo">
+            <p>Madrid</p>
+            <p>+34 606 656 761</p>
+            <p>iglobalstore00@gmail.com</p>
+        </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,34 @@
+.header {
+    background-color: #c9ddf2;
+    text-align: center;
+    padding: 1px;
+    font-family: 'League Spartan';
+}
+.header h1 {
+    font-size: 50px;
+    color: #525252;
+}
+    
+/* MENÚ INICIO*/
+.topnav{
+    overflow: hidden;
+    background-color: #525252;
+    display: flex;
+    justify-content: center;
+}
+
+.topnav a{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    font-family: 'League Spartan';
+    padding: 14px 16px;
+    text-decoration: none;
+}
+    
+/* Añade efecto al pasar por encima en el menú*/
+.topnav a:hover {
+    background-color: #c9ddf2;
+    color: black;
+}
