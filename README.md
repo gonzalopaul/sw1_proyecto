@@ -15,7 +15,7 @@ git clone https://github.com/gonzalopaul/sw1_proyecto.git
 ````
 Dirigiéndote al directorio src
 ````
-cd sw1_proyecto/src
+cd sw1_proyecto/src/public
 ````
 Si tienes instalado docker ejecuta:
 ````
